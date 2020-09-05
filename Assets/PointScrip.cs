@@ -35,7 +35,7 @@ public class PointScrip : MonoBehaviour
 
     private void CreatePointMarker(Vector3 pointPosition)
     {   
-        Instantiate(linePointPrefab, pointPosition, Quaternion.identity);
+       Instantiate(linePointPrefab, pointPosition, Quaternion.identity);       
     }
 
     private void ClearAllPoints()
